@@ -25,7 +25,7 @@ def send_message_to_telegram(chat_id, message):
         print("Failed to send message:", response.text)
 
 # ব্যক্তিগত চ্যাট ID (getUpdates চালিয়ে ID পেতে হবে)
-CHAT_ID = "YOUR_PERSONAL_CHAT_ID"  # এখানে আপনার chat_id বসান
+CHAT_ID = "@softwinagency"  # এখানে আপনার chat_id বসান
 
 # ব্যক্তিগত চ্যাট ID সংগ্রহ করার জন্য ফাংশন কল করুন (শুধু একবার চলবে)
 # get_chat_id()
